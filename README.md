@@ -63,26 +63,40 @@ Este repositório contém uma coleção de aplicativos desenvolvidos em React Na
 
 
 ## ▶️ Como Executar os Exercícios
+1. Clone o repositório:
 
-1. Instale o [Node.js](https://nodejs.org/) e o [Expo CLI](https://docs.expo.dev/get-started/installation/):
-   ```bash
-   npm install -g expo-cli
-   ```
-2. Acesse a pasta do exercício desejado:
-   ```bash
-   cd Exercicio_01
-   # ou Exercicio_02, Exercicio_03, etc.
-   ```
-3. Instale as dependências:
-   ```bash
-   npm install
-   ```
-4. Execute o aplicativo:
-   ```bash
-   npm start
-   # ou expo start
-   ```
-5. Siga as instruções do Expo para visualizar no navegador ou em dispositivo móvel.
+
+```bash 
+git clone <URL_DO_SEU_REPOSITORIO> cd <NOME_DO_REPOSITORIO> 
+```
+
+
+2. Certifique-se de ter o Node.js instalado. O Node.js inclui o npm, necessário para instalar as dependências.
+
+3. Acesse a pasta do exercício desejado:
+
+
+```bash 
+cd Exercicio_01    # ou Exercicio_02, Exercicio_03, etc.
+``` 
+
+4. Instale as dependências específicas do projeto:
+
+ 
+```bash 
+npm install
+```
+ 
+
+5. Execute o aplicativo:
+
+  
+```bash 
+npm start
+```
+
+
+6. O comando iniciará o Metro Bundler e exibirá um QR Code. Use o aplicativo Expo Go no seu celular para escanear o código e visualizar o exercício.
 
 
 ## 📁 Estrutura do Repositório
